@@ -1,15 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.pm2e18259" android:installLocation="auto">
-	<uses-sdk android:minSdkVersion="17" android:targetSdkVersion="31" />
-	<application android:label="PM2E18259.Android" android:theme="@style/MainTheme" android:icon="@mipmap/launcher_foreground">
-
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.pm2e159357863754585" android:installLocation="auto">
+	<uses-sdk android:minSdkVersion="21" android:targetSdkVersion="31" />
+	<application android:label="PM2E159357863754585.Android" android:theme="@style/MainTheme" android:icon="@mipmap/launcher_foreground">
 		<meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyAbYWz4ER9vCQZWeAfbok0FyMgzO8Zb3-Y" />
 		<provider android:name="androidx.core.content.FileProvider" android:authorities="${applicationId}.fileprovider" android:exported="false" android:grantUriPermissions="true">
 			<meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"></meta-data>
 		</provider>
-		
 	</application>
-	
 	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 	<uses-permission android:name="android.permission.INTERNET" />
 	<uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
